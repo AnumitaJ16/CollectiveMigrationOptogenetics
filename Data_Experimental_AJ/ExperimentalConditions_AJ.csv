@@ -1,0 +1,13 @@
+date,position,cell conc,experimentType,drug,substrate,objective magnification,scale pixel per um,cell type,cell sub type,static duration,line speed,gradient shape,microscope,time resolution,comments
+21-07-2020,1,100000,no static,mitomycin,glass,40x,7.58,rpe1,optoRac,,10um_hr,,spinning,30,
+21-07-2020,2,100000,no static,mitomycin,glass,40x,7.58,rpe1,optoRac,,5um_hr,,spinning,30,
+21-07-2020,3,100000,no static,mitomycin,glass,40x,7.58,rpe1,optoRac,,0.31um_hr,,spinning,30,
+21-07-2021,1,100000,no static,mitomycin,glass,40x,7.58,rpe1,optoRac,,2.5um_hr,,spinning,30,
+21-07-2021,2,100000,no static,mitomycin,glass,40x,7.58,rpe1,optoRac,,1.25um_hr,,spinning,30,
+21-07-2021,3,100000,no static,mitomycin,glass,40x,7.58,rpe1,optoRac,,0.625um_hr,,spinning,30,
+21-07-2022,1,100000,static,mitomycin,glass,40x,7.58,rpe1,optoRac,540,2.5um_hr,,spinning,30,
+21-07-2022,2,100000,static,mitomycin,glass,40x,7.58,rpe1,optoRac,540,1.25um_hr,,spinning,30,
+21-07-2022,3,100000,static,mitomycin,glass,40x,7.58,rpe1,optoRac,540,0.625um_hr,,spinning,30,
+21-07-2027,1,100000,static,mitomycin,glass,40x,7.58,rpe1,optoRac,540,10um_hr,,spinning,30,
+21-07-2027,2,100000,static,mitomycin,glass,40x,7.58,rpe1,optoRac,540,5um_hr,,spinning,30,
+21-07-2027,3,100000,static,mitomycin,glass,40x,7.58,rpe1,optoRac,540,0.31um_hr,,spinning,30,
