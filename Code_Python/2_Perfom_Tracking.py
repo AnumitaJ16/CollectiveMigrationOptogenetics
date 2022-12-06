@@ -27,7 +27,7 @@ import UtilityFunctions as ufun
 import GraphicStyles as gs
 
 #%% 
-date = '21-07-27'
+date = '21-07-22'
 pos = 3
 
 ## I. Load segmentation results

@@ -5,13 +5,17 @@ Created on Fri Oct  7 15:17:48 2022
 @author: Hugo, Hersen Team PCC
 
 To use this code, run the following in the Anaconda Powershell:
-    
+
+Before activating environment:
+conda install -c conda-forge spyder-kernels
+
+Then the following lines below:
 conda create -y -n napari-env -c conda-forge python=3.9
 conda activate napari-env
 python -m pip install "napari[all]"
-conda install seaborn pandas syder-kernels tensorflow statsmodels imageio tifffile
+conda install seaborn pandas tensorflow statsmodels imageio tifffile tqdm pims
 conda install -c conda-forge pyautogui
-pip install csbdeep
+pip install csbdeep pims trackpy
 pip install opencv-python
 pip install stardist
 
@@ -51,7 +55,7 @@ lbl_cmap = random_label_cmap()
 
 #%% 0. Define experiment and position you want to process
 
-dates = '21-07-27'
+dates = '21-07-22'
 pos = 3
 
 #%% I. Load the images
