@@ -3,12 +3,26 @@
 Created on Fri Oct  7 15:17:48 2022
 
 @author: Hugo, Hersen Team PCC
+
+To use this code, run the following in the Anaconda Powershell:
+    
+conda create -y -n napari-env -c conda-forge python=3.9
+conda activate napari-env
+python -m pip install "napari[all]"
+conda install seaborn pandas syder-kernels tensorflow statsmodels imageio tifffile
+conda install -c conda-forge pyautogui
+pip install csbdeep
+pip install opencv-python
+pip install stardist
+
+Make sure to have your grahical backend as Inline and not Qt, as cellpose affects the Qt package version.
 """
 
 # required modules : numpy, matplotlib, stardist, tqdm, tifffile, csbdeep, cv2
 
 from __future__ import print_function, unicode_literals, absolute_import, division
 import sys
+import h5py
 import numpy as np
 import matplotlib
 matplotlib.rcParams["image.interpolation"] = None
